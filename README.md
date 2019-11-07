@@ -35,4 +35,8 @@ npm install
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+<<<<<<< HEAD
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+=======
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+>>>>>>> b35112770bd204bed2e72a66e475d37725eb4bf8
