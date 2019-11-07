@@ -1,6 +1,146 @@
-.centralize {
-  padding-top: 200px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000f2e;
+  font-family: Roboto, Arial, sans-serif;
 }
-body {
-  background-color: #fafafa
+
+.form-layout{
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 5px;
+  width: 500px;
+
+}
+
+.form-label {
+  font-size: 16px;
+  background-color: white;
+  color: rgb(31, 31, 31) ;
+}
+
+.form-control {
+  width: 100%;
+  display: block;
+  margin-top: 3px;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.col {
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  background-color: white;
+}
+
+.btn-login {
+  padding-top: 50px;
+}
+
+.form-header {
+  background-color: white;
+  text-align: center;
+
+}
+
+.form-header h1 {
+  background-color: white;
+  font-size: 35px;
+}
+
+.form-header p {
+  font-size: 14px;
+  background-color: white;
+  padding-bottom: 10px;
+  color: rgb(70, 70, 70);
+}
+
+.form-footer {
+  padding-top: 25px;
+  background-color: white;
+  text-align: center;
+}
+
+.form-footer h1{
+  background-color: white;
+  font-size: 11px;
+  display: inline;
+}
+.form-footer a{
+  background-color: white;
+  font-size: 11px;
+  
+}
+
+
+/* CSS Animation */
+.form-layout{
+  overflow: hidden;
+  animation: fade 1s;
+  animation-fill-mode:backwards;
+}
+
+.botao {
+  animation: fade 750ms;
+  animation-delay: 3000ms;
+  animation-fill-mode:backwards;
+}
+
+.form-footer {
+  animation: fade 750ms;
+  animation-delay: 3500ms;
+  animation-fill-mode:backwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9)
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.form-header h1 {
+  animation: move 100ms;
+  animation-delay: 500ms;
+  animation-fill-mode:backwards;
+}
+
+.form-header p {
+  animation: move 500ms;
+  animation-delay: 500ms;
+  animation-fill-mode:backwards;
+}
+
+.form-group:nth-child(2) {
+  animation: move 1000ms;
+  animation-delay: 1000ms;
+  animation-fill-mode: backwards;
+}
+.form-group:nth-child(3) {
+  animation: move 2000ms;
+  animation-delay: 1000ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
