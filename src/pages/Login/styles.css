@@ -1,9 +1,10 @@
-* {
+.page-config {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #000f2e;
   font-family: Roboto, Arial, sans-serif;
+  background-color:#000f2e;
+  height: 100vh;
 }
 
 .form-layout{
